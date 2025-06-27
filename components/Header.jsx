@@ -10,8 +10,12 @@ export default function Header() {
     <header className="w-full px-6 py-4 flex justify-between items-center bg-gray-800">
       <h1 className="text-2xl font-bold">Yamlak Negash</h1>
       <div className="flex gap-4">
-        <a href="/resume.pdf" className="text-teal-400 hover:underline" download>Download Résumé</a>
         <button onClick={toggleTheme} className="bg-gray-700 text-white px-4 py-2 rounded-lg">Toggle Theme</button>
+      </div>
+
+      <div>
+        Hello there!
+        <span className="text-sm text-gray-400">Welcome to my portfolio</span>
       </div>
     </header>
   );
